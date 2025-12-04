@@ -1,10 +1,15 @@
 import Container from './components/Container'
+import Header from './components/Header'
+import TypeSelector from './components/TypeSelector'
 
 function App() {
   return (
-    <Container>
-      <h1 className="text-red-500">Hola mundooooo</h1>
-    </Container>
+    <>
+      <Header></Header>
+      <Container>
+        <TypeSelector></TypeSelector>
+      </Container>
+    </>
   )
 }
 

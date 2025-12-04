@@ -1,8 +1,8 @@
-const Container = ({children}) => {
+const Container = ({ children }) => {
   return (
-   <div className="bg-gray-800 h-screen w-full">
+    <div className="flex justify-center bg-gray-800 h-screen w-full">
       {children}
-   </div> 
+    </div>
   )
 }
 
