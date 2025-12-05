@@ -1,10 +1,17 @@
+import { ShieldQuestionMark } from "lucide-react"
 import Logo from "../../public/logo.png"
 
 const Header = () => {
   return (
-    <div className="flex justify-left pl-5 bg-zinc-900">
-      <img src={Logo} alt="Logo" className="xl:w-1/11  md:w-2/11"/>
-    </div>
+    <nav className="w-full h-1/12 border-b px-10 flex items-center gap-x-4">
+      <ShieldQuestionMark
+        size={25}
+        className="text-red-500"
+      />
+      <h1 className="font-bold text-2xl  bg-gradient-to-r from-red-800 via-destructive to-destructive bg-clip-text text-transparent">
+        Fake News Detector
+      </h1>
+    </nav>
   )
 }
 

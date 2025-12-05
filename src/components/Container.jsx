@@ -1,6 +1,6 @@
 const Container = ({ children }) => {
   return (
-    <div className="flex justify-center bg-gray-900 h-screen w-full">
+    <div className="w-full h-screen">
       {children}
     </div>
   )
